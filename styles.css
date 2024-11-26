@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+}
+
+.banner-image {
+    display: inline-block;
+    align-self: center;
+    max-width: 128px;
+}
+
+.title {}
+
+.story {}
