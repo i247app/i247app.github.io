@@ -1,0 +1,16 @@
+.navbar {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    // Hide completely on mobile
+    @media (max-width: 600px) {
+        display: none;
+    }
+
+    .spacer {
+        flex: 1;
+    }
+}

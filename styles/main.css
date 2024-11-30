@@ -33,6 +33,27 @@ body {
   gap: 0.5rem;
 }
 
+.container-inline {
+  max-width: 800px;
+  margin: auto;
+}
+
+.navbar {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
+.navbar .spacer {
+  flex: 1;
+}
+
 body {
   background-color: hotpink;
   color: chartreuse;
@@ -41,9 +62,9 @@ body {
 .banner-image {
   display: inline-block;
   align-self: center;
-  width: 256px;
-  max-width: 100%;
-  border-radius: 10rem;
+  width: 420px;
+  max-width: 80vw;
+  border-radius: 100vw;
   aspect-ratio: 1;
 }
 
