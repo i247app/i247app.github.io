@@ -93,27 +93,18 @@ body {
 }
 
 .section-info {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
   padding: 2rem 0;
   background-color: chartreuse;
   color: hotpink;
 }
 
-.section-info {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+.section-how-to-buy {
   padding: 2rem 0;
-  background-color: chartreuse;
-  color: hotpink;
+  background-color: hotpink;
+  color: chartreuse;
 }
 
-.section-info {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+.section-socials {
   padding: 2rem 0;
   background-color: chartreuse;
   color: hotpink;
@@ -126,8 +117,9 @@ body {
 }
 
 body {
-  background-color: dodgerblue;
+  background-color: #333;
   color: white;
+  overflow-x: hidden;
 }
 
 .hero-content {

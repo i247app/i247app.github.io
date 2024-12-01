@@ -1,6 +1,7 @@
 body {
-    background-color: dodgerblue;
+    background-color: $background-color;
     color: white;
+    overflow-x: hidden;
 }
 
 .hero-content {
