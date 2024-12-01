@@ -11,12 +11,13 @@
         display: flex;
         flex-direction: row;
         gap: 3rem;
+        padding: 2rem 0;
 
         &__link {
             // display: flex;
             // flex-direction: column;
             // align-items: center;
-            width: 10ch;
+            width: 6ch;
             text-align: center;
             color: inherit;
             text-decoration: none;
