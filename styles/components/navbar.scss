@@ -3,6 +3,7 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1rem;
 
     // Hide completely on mobile
@@ -12,5 +13,37 @@
 
     .spacer {
         flex: 1;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.2s;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        &--image {
+            display: contents;
+            padding: 0;
+
+            img {
+                max-width: 4ch;
+                height: auto;
+                aspect-ratio: 1;
+                display: inline-block;
+                width: 100%;
+                border-radius: 10rem;
+                transition: filter 0.3s;
+
+                &:hover {
+                    filter: brightness(0.9);
+                }
+            }
+        }
     }
 }

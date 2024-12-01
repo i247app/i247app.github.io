@@ -1,8 +1,8 @@
-$container-max-width: 800px;
+$container-max-width: 1024px;
 
 .container {
     max-width: $container-max-width;
-    margin: auto;
+    margin-inline: auto;
     padding: 1rem;
 
     display: flex;
@@ -13,5 +13,5 @@ $container-max-width: 800px;
 
 .container-inline {
     max-width: $container-max-width;
-    margin: auto;
+    margin-inline: auto;
 }

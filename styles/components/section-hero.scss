@@ -1,0 +1,13 @@
+.section-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    height: 100vh;
+    // padding: 2rem 0;
+
+    background-color: hotpink;
+    color: chartreuse;
+
+    text-align: center;
+}

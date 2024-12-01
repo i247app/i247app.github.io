@@ -1,17 +1,26 @@
 body {
-    background-color: hotpink;
-    color: chartreuse;
+    background-color: dodgerblue;
+    color: white;
 }
 
-.banner-image {
-    display: inline-block;
-    align-self: center;
-    width: 420px;
-    max-width: 80vw;
-    border-radius: 100vw;
-    aspect-ratio: 1;
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    &__image {
+        display: inline-block;
+        align-self: center;
+        width: 260px;
+        max-width: 80vw;
+        border-radius: 100vw;
+        aspect-ratio: 1;
+    }
+
+    &__title {}
+
+    &__story {}
 }
-
-.title {}
-
-.story {}
