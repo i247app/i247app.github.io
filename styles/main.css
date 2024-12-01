@@ -16,6 +16,7 @@ html {
 body {
   line-height: 1.3;
   font-size: 22px;
+  text-wrap-style: balance;
 }
 
 h1,
@@ -113,8 +114,8 @@ h2 {
   background-color: chartreuse;
   color: hotpink;
 }
-.section-info .background-story {
-  margin-bottom: 2rem;
+.section-info > .container {
+  gap: 3rem;
 }
 .section-info .token-stats {
   display: grid;
