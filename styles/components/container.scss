@@ -3,7 +3,7 @@ $container-max-width: 1024px;
 .container {
     max-width: $container-max-width;
     margin-inline: auto;
-    padding: 1rem;
+    padding-block: 3rem;
 
     display: flex;
     flex-direction: column;

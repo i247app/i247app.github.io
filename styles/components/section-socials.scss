@@ -1,5 +1,31 @@
 .section-socials {
+    >.container {
+        align-items: center;
+    }
+
     padding: 2rem 0;
     background-color: chartreuse;
     color: hotpink;
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+
+        &__link {
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            width: 10ch;
+            text-align: center;
+            color: inherit;
+            text-decoration: none;
+
+            img {
+                display: inline-block;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
 }

@@ -9,6 +9,11 @@
   font-optical-sizing: auto;
 }
 
+body {
+  line-height: 1.3;
+  font-size: 22px;
+}
+
 h1,
 h2,
 h3,
@@ -18,15 +23,18 @@ h6 {
   margin-block-end: 0.5rem;
 }
 
-body {
-  line-height: 1.3;
-  font-size: 20px;
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 .container {
   max-width: 1024px;
   margin-inline: auto;
-  padding: 1rem;
+  padding-block: 3rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -108,6 +116,25 @@ body {
   padding: 2rem 0;
   background-color: chartreuse;
   color: hotpink;
+}
+.section-socials > .container {
+  align-items: center;
+}
+.section-socials .socials {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.section-socials .socials__link {
+  width: 10ch;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+.section-socials .socials__link img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 .footer {
