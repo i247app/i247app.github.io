@@ -6,10 +6,15 @@
     align-items: center;
     gap: 1rem;
 
-    // Hide completely on mobile
-    @media (max-width: 600px) {
-        display: none;
+    .mobile-hidden {
+        display: contents;
+
+        // Hide completely on mobile
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
+
 
     .spacer {
         flex: 1;
